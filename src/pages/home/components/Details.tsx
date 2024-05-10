@@ -30,10 +30,8 @@ const Details = () => {
   }, [currentIndustry]);
 
   return (
-    <div className="flex flex-col w-1/2 gap-6">
-      <h1 className="text-white text-4xl font-bold self-center">
-        {t("home.title")}
-      </h1>
+    <div className="flex flex-col w-full lg:w-1/2 gap-6">
+      <h1 className="text-white text-4xl font-bold ">{t("home.title")}</h1>
 
       <h2 className="font-bold text-primary-blue text-4xl">
         {t(`home.industriesList.${currentIndustry}`)}

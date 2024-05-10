@@ -4,7 +4,7 @@ const CurrencyExchange = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primary-blue py-2 gap-4 justify-center mb-8 flex ">
+    <div className="bg-primary-blue py-2 gap-4 md:flex-row flex-col justify-center mb-8 flex ">
       <div className="flex gap-2 justify-center items-center">
         <div>
           <img src={"/flag-mex.png"} alt="" />
