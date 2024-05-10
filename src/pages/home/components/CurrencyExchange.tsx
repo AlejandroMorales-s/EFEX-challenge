@@ -1,5 +1,8 @@
 import { useTranslation } from "react-i18next";
 
+const COL_FLAG_IMG_URL = "/flags/regular/flag-col.png";
+const MEX_FLAG_IMG_URL = "/flags/regular/flag-mex.png";
+
 const CurrencyExchange = () => {
   const { t } = useTranslation();
 
@@ -7,7 +10,7 @@ const CurrencyExchange = () => {
     <div className="bg-primary-blue py-2 gap-4 md:flex-row flex-col justify-center mb-8 flex ">
       <div className="flex gap-2 justify-center items-center">
         <div>
-          <img src={"/flag-mex.png"} alt="" />
+          <img src={MEX_FLAG_IMG_URL} alt="" />
         </div>
 
         <p className="text-white">
@@ -21,7 +24,7 @@ const CurrencyExchange = () => {
 
       <div className="flex gap-2 justify-center items-center">
         <div>
-          <img src={"/flag-col.png"} alt="" />
+          <img src={COL_FLAG_IMG_URL} alt="" />
         </div>
 
         <p className="text-white">

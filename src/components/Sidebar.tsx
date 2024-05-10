@@ -27,7 +27,7 @@ const TABS = [
   Tabs.security,
 ];
 
-const LOGO_URL = "/logo-efex-white.png";
+const LOGO_URL = "/logo/white.png";
 const LOGO_ALT = "Efex logo";
 
 const REFER_IMAGE_URL = "/refer.png";

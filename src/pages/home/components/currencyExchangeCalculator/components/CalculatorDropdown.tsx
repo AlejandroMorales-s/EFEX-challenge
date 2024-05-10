@@ -5,9 +5,9 @@ import clsx from "clsx";
 import { CurrenciesData } from "..";
 
 export const FLAGS = {
-  [Currencies.mxn]: "/mx-flag.png",
-  [Currencies.usd]: "/us-flag.png",
-  [Currencies.cop]: "/co-flag.png",
+  [Currencies.mxn]: "/flags/rounded/mx-flag.png",
+  [Currencies.usd]: "/flags/rounded/us-flag.png",
+  [Currencies.cop]: "/flags/rounded/co-flag.png",
 };
 
 const FLAG_IMG_WIDTH = 24;
