@@ -12,13 +12,13 @@ const Actions = () => {
     <div className="flex gap-[25px] flex-col lg:flex-row">
       <ActionsButton
         isNew
-        mainText={t("dashboard.balance.actions.credit.mainText")}
-        secondaryText={t("dashboard.balance.actions.credit.subText")}
+        mainText={t("dashboard.actions.credit.mainText")}
+        secondaryText={t("dashboard.actions.credit.subText")}
         icon={<RiMoneyDollarCircleFill size={ICON_SIZE} />}
         borderColor="border-black-blue"
       />
       <ActionsButton
-        mainText={t("dashboard.balance.actions.sendPayment.mainText")}
+        mainText={t("dashboard.actions.sendPayment.mainText")}
         icon={
           <FaMoneyBillTransfer size={ICON_SIZE} className="text-yellow-400" />
         }

@@ -65,7 +65,7 @@ const ChartsCard = ({ variant, totalAmount, chartData }: ChartsProps) => {
       <div className="flex w-full justify-between">
         <div>
           <h4 className="text-lg">
-            {t(`dashboard.balance.charts.payments.${variant}`)}{" "}
+            {t(`dashboard.charts.payments.${variant}`)}{" "}
             <span
               className={clsx(
                 "font-medium",
@@ -81,7 +81,7 @@ const ChartsCard = ({ variant, totalAmount, chartData }: ChartsProps) => {
 
         <Button
           variant="dark-ghost"
-          text="View all"
+          text={t("dashboard.charts.buttonText")}
           className="w-fit self-start"
         />
       </div>

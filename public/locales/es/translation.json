@@ -61,23 +61,23 @@
         "addFunds": "Agregar fondos",
         "convert": "Convertir",
         "withdraw": "Retirar"
-      },
-      "actions": {
-        "credit": {
-          "mainText": "Crédito para adelanto",
-          "subText": "(Pago a proveedores)"
-        },
-        "sendPayment" : {
-          "mainText": "Enviar pago"
-        }
-      },
-      "charts": {
-        "payments": {
-          "out": "Pagos salientes",
-          "in": "Pagos entrantes"
-        },
-        "buttonText": "View all"
       }
+    },
+    "actions": {
+      "credit": {
+        "mainText": "Crédito para adelanto",
+        "subText": "(Pago a proveedores)"
+      },
+      "sendPayment" : {
+        "mainText": "Enviar pago"
+      }
+    },
+    "charts": {
+      "payments": {
+        "out": "Pagos salientes",
+        "in": "Pagos entrantes"
+      },
+      "buttonText": "Ver todos"
     }
   }
 }

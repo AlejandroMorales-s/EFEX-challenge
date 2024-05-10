@@ -61,23 +61,23 @@
         "addFunds": "Add funds",
         "convert": "Convert",
         "withdraw": "Withdraw"
-      },
-      "actions": {
-        "credit": {
-          "mainText": "Advance credit",
-          "subText": "(Payment to suppliers)"
-        },
-        "sendPayment" : {
-          "mainText": "Send payment"
-        }
-      }, 
-      "charts": {
-        "payments": {
-          "in": "Payments in",
-          "out": "Payments out"
-        },
-        "buttonText": "View all"
       }
+    },
+    "actions": {
+      "credit": {
+        "mainText": "Advance credit",
+        "subText": "(Payment to suppliers)"
+      },
+      "sendPayment" : {
+        "mainText": "Send payment"
+      }
+    }, 
+    "charts": {
+      "payments": {
+        "in": "Payments in",
+        "out": "Payments out"
+      },
+      "buttonText": "View all"
     }
   }
 }
