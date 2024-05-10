@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "text": "Send your international payments here:", 
+    "buttonText": "Log in to your account"
+  },
+  "languageSelection": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "home": {
+    "send": "Send",
+    "note": "**This special rate is reserved for customers with high transaction volumes.",
+    "sections": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "supportAndSecurity": "Support and Security",
+      "aboutUs": "About Us",
+      "faqs": "FAQs"
+    },
+    "title": "Stop losing dollars in your international payments",
+    "subtitle": "We offer the best technology and infrastructure to process individual, bulk, and API international payments.",
+    "industriesList": {
+      "exports": "Exports",
+      "imports": "Imports",
+      "fintech": "Fintech",
+      "ecommerce": "Ecommerce",
+      "logistics": "Logistics"
+    },
+    "buttons": {
+      "register": "Open account",
+      "demo": "Schedule a Demo"
+    },
+    "calculator": {
+      "send": "You send",
+      "receive": "Your contact receives"
+    }
+  }, 
+  "sidebar" : {
+    "tabs": {
+      "dashboard": "Dashboard",
+      "revenues": "Revenues",
+      "expenses": "Expenses",
+      "contacts": "Contacts",
+      "security": "Security"
+    },
+    "refer": {
+      "title": "Refers to a company!",
+      "subtitle": "Earn $100 for each company you refer.",
+      "button": "See code"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "balance": {
+      "title": "Combined balance",
+      "usdBalance": "USD balance",
+      "mxnBalance": "MXN balance",
+      "copBalance": "COP balance",
+      "buttons": {
+        "sendPayment": "Send payment",
+        "addFunds": "Add funds",
+        "convert": "Convert",
+        "withdraw": "Withdraw"
+      },
+      "actions": {
+        "credit": {
+          "mainText": "Advance credit",
+          "subText": "(Payment to suppliers)"
+        },
+        "sendPayment" : {
+          "mainText": "Send payment"
+        }
+      }, 
+      "charts": {
+        "payments": {
+          "in": "Payments in",
+          "out": "Payments out"
+        },
+        "buttonText": "View all"
+      }
+    }
+  }
+}

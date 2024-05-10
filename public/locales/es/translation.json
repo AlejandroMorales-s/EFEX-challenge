@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "text": "Envía tus pagos internacionales aquí:",
+    "buttonText": "Ingresa a tu cuenta"
+  },
+  "languageSelection": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "home": {
+    "send": "Envía",
+    "note": "**Esta tasa de cambio especial está reservada a clientes con un elevado volumen de transacciones.",
+    "sections": {
+      "home": "Inicio",
+      "solutions": "Soluciones",
+      "supportAndSecurity": "Soporte y Seguridad",
+      "aboutUs": "Confían en nosotros",
+      "faqs": "FAQs"
+    },
+    "title": "Envía y automatiza pagos internacionales para",
+    "subtitle": "Ofrecemos la mejor tecnología e infraestructura para procesar pagos internacionales individuales, masivos y a través de API.",
+    "industriesList": {
+      "exports": "Exportaciones",
+      "imports": "Importaciones",
+      "fintech": "Fintech",
+      "ecommerce": "Ecommerce",
+      "logistics": "Logística"
+    },
+    "buttons": {
+      "register": "Abrir cuenta",
+      "demo": "Agendar Demo"
+    },
+    "calculator": {
+      "send": "Tu envías",
+      "receive": "Tu contacto recibe"
+    }
+  },
+  "sidebar": {
+    "tabs": {
+      "dashboard": "Dashboard",
+      "revenues": "Ingresos",
+      "expenses": "Egresos",
+      "contacts": "Contactos",
+      "security": "Seguridad"
+    },
+    "refer": {
+      "title": "¡Refiere a una empresa!",
+      "subtitle": "¡Gana $100 USD por cada referido!",
+      "buttonText": "Ver código"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "balance": {
+      "title": "Balance combinado",
+      "usdBalance": "Balance en USD",
+      "mxnBalance": "Balance en MXN",
+      "copBalance": "Balance en COP", 
+      "buttons": {
+        "sendPayment": "Enviar pago",
+        "addFunds": "Agregar fondos",
+        "convert": "Convertir",
+        "withdraw": "Retirar"
+      },
+      "actions": {
+        "credit": {
+          "mainText": "Crédito para adelanto",
+          "subText": "(Pago a proveedores)"
+        },
+        "sendPayment" : {
+          "mainText": "Enviar pago"
+        }
+      },
+      "charts": {
+        "payments": {
+          "out": "Pagos salientes",
+          "in": "Pagos entrantes"
+        },
+        "buttonText": "View all"
+      }
+    }
+  }
+}
