@@ -6,6 +6,8 @@ import { Button } from "../../../../components";
 import { RiArrowUpDownLine } from "react-icons/ri";
 import exchangeRateClient from "../../../../api/exchangeRateClient";
 
+const ICON_SIZE = 22;
+
 export interface CurrenciesData {
   send: { currency: Currencies; value: number };
   receive: { currency: Currencies; value: number };
@@ -35,9 +37,12 @@ const CurrencyExchangeCalculator = () => {
     currency: Currencies;
     side: Side;
   }) => {
+    const otherSide = props.side === Side.send ? Side.receive : Side.send;
+
     setCurrenciesData({
       ...currenciesData,
-      [props.side]: { ...currenciesData[props.side], currency: props.currency },
+      [props.side]: { value: 0, currency: props.currency },
+      [otherSide]: { ...currenciesData[otherSide], value: 0 },
     });
   };
 
@@ -100,7 +105,7 @@ const CurrencyExchangeCalculator = () => {
         variant="primary"
         rounded
         className="self-end w-fit"
-        icon={<RiArrowUpDownLine size={22} />}
+        icon={<RiArrowUpDownLine size={ICON_SIZE} />}
         onClick={handleSwitchCurrencies}
       />
 

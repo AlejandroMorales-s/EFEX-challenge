@@ -56,7 +56,7 @@ const CalculatorInput = ({
 
         <input
           placeholder=""
-          className="rounded-full p-2"
+          className="rounded-full p-3"
           title="price"
           type="number"
           value={currentValue}
